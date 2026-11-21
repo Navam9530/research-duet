@@ -1,0 +1,19 @@
+{
+  "$schema": "https://agentsmp.com/schemas/family/v1.json",
+  "schemaVersion": 1,
+  "name": "Navam9530_research-duet",
+  "description": "",
+  "version": "0.1.0",
+  "agents": {
+    "id": "lead",
+    "name": "writer",
+    "description": "Writes short articles from a topic.",
+    "model": {
+      "provider": "anthropic",
+      "name": "claude-sonnet-5-5"
+    },
+    "mcps": [],
+    "skills": [],
+    "sub-agents": []
+  }
+}
